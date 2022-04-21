@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "1.2",
+	"FriendlyName": "Magnetic Pickup",
+	"Description": "Exposes the Magnetic Pickup Component, which adds magnetic functionality to any actor added, such that if collector actor (Player) comes close, the magnetic object will follow the Player until reaching them",
+	"Category": "CHadjiantoniou",
+	"CreatedBy": "Charalambos Hadjiantoniou",
+	"CreatedByURL": "www.chadjiantoniou.com",
+	"DocsURL": "www.chadjiantoniou.com/docs/Magnetic Pickup - Documentation.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c12b77267d3e451097d93c87e090a5d6",
+	"SupportURL": "www.chadjiantoniou.com",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MagneticPickup",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			],
+			"BlacklistPlatforms": [
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}
